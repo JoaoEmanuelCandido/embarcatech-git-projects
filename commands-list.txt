@@ -1,0 +1,20 @@
+mkdir curso-git-embarcatech
+cd curso-git-embarcatech
+git init --initial-branch=main
+git config user.name "JoaoEmanuel"
+git config user.email "joaoemanu3lcandido@gmail.com"
+nano user.txt
+git status
+git add user.txt
+git status
+git commit -m "Arquivo contendo nome e email (Primeiro Commit)"
+git remote add origin-github https://github.com/JoaoEmanuelCandido/embarcatech-git-projects.git
+git push -u origin-github main
+git status
+nano commands-list.txt
+git status
+git add commands-list.txt
+git status
+git commit -m "Lista de comandos (segundo commit)"
+git push
+git status
